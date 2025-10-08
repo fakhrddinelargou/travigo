@@ -427,7 +427,9 @@ left: 50%;
 /* container-contact */
 
 .container-contact{
+	margin: auto;
 display: flex;
+max-width: 90%;
 align-items: center;
 justify-content: center;
 gap: 5rem;
@@ -552,6 +554,23 @@ gap: 5rem;
 }
 
 @media (max-width: 1040px){
+	.container-contact{
+		padding-top: 2rem;
+flex-direction: column;
+	height: auto;
+
+}
+
+.form-mssg{
+	
+	width: 100%;
+
+}
+
+.contact-info{
+	width: 100%;
+	
+}
 	#menu-icon{
 		display: block;
 	}
