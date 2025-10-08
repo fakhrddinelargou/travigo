@@ -35,6 +35,9 @@ header{
 	padding: 30px 18%;
 	transition: ease .40s;
 }
+.head-contact{
+	background: #000;
+}
 .head{
 	background: var(	--main-color);
 }
@@ -421,7 +424,112 @@ left: 50%;
 	letter-spacing: 2px;
 }
 
+/* container-contact */
 
+.container-contact{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5rem;
+	width: 100%;
+	height: 100vh;
+	margin-top: 7rem;
+}
+
+.contact-info{
+	padding: 2rem;
+	background: var(--main-color);
+   color: var(--bg-color);
+   width: 30%;
+   height: 80vh;
+   border-radius: 1rem;
+}
+.title-contact{
+	padding-bottom: 1rem;
+}
+.contact-info h3{
+	padding-bottom: 2rem;
+}
+.contact-info p {
+	padding-bottom: 1rem;
+}
+.contact-info .social-contact{
+	display: flex;
+	 gap: 2rem;
+	 align-items: center;
+}
+.contact-info .social-contact a{
+	color: #ffffffbf;
+	font-size: var(--p-font);
+	display: block;
+	transition: .3s;
+}
+.contact-info .social-contact a:hover{
+	color: var(--bg-color);
+	transform: translateX(14px);
+}
+.contact-info .social-contact a{
+	height: 40px;
+	width: 40px;
+	background: var(--bg-color);
+	color: var(--main-color);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 21px;
+	border-radius: 15px;
+	transition: .3s;
+	margin-right: 10px;
+}
+.list .social a:hover{
+	transform: scale(1.1);
+}
+.form-mssg{
+	
+	width: 30%;
+	height: 80vh;
+}
+.form-mssg .name{
+	display: flex;
+	width: 100%;
+	gap: 2rem;
+}
+.form-mssg .name label{
+	width: 100%;
+}
+.form-mssg p{
+	padding-bottom: .6rem;
+	font-size: .8rem;
+	font-weight: 500;
+}
+.form-mssg input {
+	width: 100%;
+	margin-bottom: 1rem;
+	border-radius: .5rem;
+	border: solid .01rem rgb(212, 212, 212);
+	padding: .5rem 0;
+}
+.form-mssg textarea{
+	width: 100%;
+	border-radius: .5rem;
+	border: solid .01rem rgb(212, 212, 212);
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	text-align: start;
+}
+.form-mssg .btn-mssg{
+	width: 100%;
+	padding: .5rem 0;
+	border: none;
+	border-radius: .5rem;
+    font-weight: 500;
+	transition:ease .2s;
+	cursor: pointer;
+}
+.form-mssg .btn-mssg:hover{
+	color: var(--bg-color);
+	background: var(--main-color);
+}
 @media (max-width: 1400px){
 	header{
 		padding: 17px 3%;
