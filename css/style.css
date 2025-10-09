@@ -36,7 +36,9 @@ header{
 	transition: ease .40s;
 }
 .head-contact{
-	background: #000;
+	/* background: #00000038; */
+backdrop-filter: blur(10px);
+  background-color: rgb(103, 97, 208);
 }
 .head{
 	background: var(	--main-color);
